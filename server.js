@@ -77,7 +77,7 @@
 
   server = http.createServer(function(req, res) {
     res.writeHead(200, {
-      'Content-Type': 'text/html;charset:UTF-8'
+      'Content-Type': 'text/html;charset=UTF-8'
     });
     return res.end("免费ss 公益游戏交流qq群56510783");
   });
