@@ -77,9 +77,9 @@
 
   server = http.createServer(function(req, res) {
     res.writeHead(200, {
-      'Content-Type': 'text/plain'
+      'Content-Type': 'text/html;charset:UTF-8'
     });
-    return res.end("<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 免费ss 公益游戏交流qq群56510783");
+    return res.end("免费ss 公益游戏交流qq群56510783");
   });
 
   wss = new WebSocketServer({
